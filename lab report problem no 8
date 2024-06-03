@@ -1,0 +1,39 @@
+Problem no 8
+------------------------
+#include<stdio.h>
+int main(){
+int Num[6]={2,4,5, 7,8,45,5};
+int value, pos =-1,i;
+printf("Enter the value you want to search ");
+scanf("%d",&value);
+
+for(i=0;i<6;i++){
+
+if(value==Num[i])
+
+{
+pos=i+1;
+break;
+}
+
+}
+
+if(pos ==-1)
+printf("not found ");
+else
+printf("the number of value is found and position is %d ",pos);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
