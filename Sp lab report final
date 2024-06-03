@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    float principal, rate, time, simpleInterest;
+
+    // Prompt user to enter the principal amount
+    printf("Enter the principal amount: ");
+    scanf("%f", &principal);
+
+    // Prompt user to enter the rate of interest
+    printf("Enter the rate of interest per annum: ");
+    scanf("%f", &rate);
+
+    // Prompt user to enter the time period in years
+    printf("Enter the time period in years: ");
+    scanf("%f", &time);
+
+    // Calculate simple interest
+    simpleInterest = (principal * rate * time) / 100;
+
+    // Display the calculated simple interest
+    printf("The simple interest is: %.2f\n", simpleInterest);
+
+    return 0;
+}
