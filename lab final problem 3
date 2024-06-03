@@ -1,0 +1,27 @@
+Problem no 3
+------------------------
+#include<stdio.h>
+int main() 
+{
+
+int n,A=0,B=1,C,i;
+printf("How many number:");
+scanf("%d",&n);
+
+printf("%d % d :",A,B);
+
+for(i=0;i<=n;i++){
+
+ C= A+B;
+ printf("\t %d",C);
+ A=B;
+ B=C;
+
+
+
+}
+
+ return 0; 
+
+
+}
